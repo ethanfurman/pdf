@@ -7,6 +7,10 @@ Icon
 # Thumbnails
 ._*
 
+# temp files
+*.sw?
+.*.sw?
+
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
@@ -17,6 +21,7 @@ diffs.txt
 examples/*.pdf
 examples/rl*/*.pdf
 tests/*.pdf
+tests/*.pickle
 examples/pdfrw
 examples/rl*/pdfrw
 tests/pdfrw
